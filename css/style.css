@@ -1,0 +1,77 @@
+html {
+  font-family: 'Noto Sans', 'sans-serif', 'Microsoft Jhenghei'; }
+
+body {
+  color: #526066; }
+
+.pure-menu-horizontal {
+  height: 35; }
+
+h2, h3 {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+p {
+  line-height: 1.6em; }
+
+.pure-menu {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+
+.banner {
+  text-align: center;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table; }
+
+.banner-head {
+  display: table-cell;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-size: 2em;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 1px 1px black; }
+
+.l-content {
+  margin: 0 auto; }
+
+header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+.l-content {
+  width: 60%;
+  margin: auto; }
+
+.pure-u-1.pure-u-md-1-2 {
+  width: 100%;
+  border: 1px solid #eee; }
+
+.footer {
+  background: #111;
+  color: #888;
+  text-align: center; }
+
+.footer a {
+  color: #ddd; }
+
+.l-box {
+  padding: 0.5em 2em; }
+
+@media (min-width: 767px) {
+  .banner-head {
+    font-size: 4em; } }
+/*
+ * -- PHONE MEDIA QUERIES --
+ * On phones, we want to reduce the height and font-size of the banner further
+ */
+@media (min-width: 480px) {
+  .banner {
+    height: 400px; }
+
+  .banner-head {
+    font-size: 3em; } }

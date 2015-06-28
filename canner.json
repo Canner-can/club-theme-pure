@@ -1,0 +1,34 @@
+{
+    "layout": "./index.hbs",
+    "data": {
+        "title": "生態旅遊研究社",
+        "website": "http://www.canner.io",
+        "news": {
+            "title": "最新消息",
+            "posts": [
+                {
+                    "title": "7/25 - 7/31",
+                    "content": "暑假集訓，有豐富的活動、食物，等著大家參與唷！"
+                },
+                {
+                    "title": "6/30",
+                    "content": "晚上揪團吃飯"
+                }
+
+            ]
+        },
+        "banner": {
+            "tagline": "simple is beautiful",
+            "photoUrl": "http://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg"
+        },
+        "about": {
+            "title": "關於我們",
+            "content": "本社團成立於2010年，固定社課時間為星期三..."
+        },
+        "contact": {
+            "title": "Contact Us",
+            "email": "club@mail.com",
+            "facebook": "https://www.test.com"
+        }
+    }   
+}
